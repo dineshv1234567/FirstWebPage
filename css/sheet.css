@@ -1,0 +1,64 @@
+body
+{
+	background-color: rgb(54,50,90);
+	margin: 0;
+}
+#mainHeading
+{
+	color: rgb(215,70,17);
+	font-family: 'Indie Flower', cursive;
+    text-shadow:0px 2px 0px black; 
+     font-size: 50px
+}
+.li1{
+	display: inline;
+	
+}
+#nav a{
+	color: yellow;
+	text-decoration: none;
+}
+#nav a:hover{
+	text-decoration: underline;
+	color:gray;
+}
+#navv{
+	margin-top: 10px;
+text-transform: uppercase;
+position: relative;
+border: 7px solid yellow
+}
+#test{
+	position: relative;
+	margin-right: 0;
+	margin-bottom: 0;
+	padding-right: 0;
+	padding-bottom: 0;
+	text-align: right;  
+}
+#info{
+	border: 1px solid white;
+	padding:10px;
+	float: left;
+	margin-right: 50px;
+	position: absolute;
+}
+img{
+	width:300px;
+	 height:400px;
+	float: right;
+	padding-right: 0;
+	margin-left: 0;
+}
+#full{
+	border: 1px solid gray;
+	margin-top: 10px;
+	clear: both;
+	width: 100%;
+	height: 1px;
+	color: gray;
+	padding-left: 0px;
+	margin-left: 0px;
+	text-align: left;
+    background-color: gray;
+}
