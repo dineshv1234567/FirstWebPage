@@ -1,6 +1,14 @@
 body{
-	  background: green url(../images/maxresdefault.jpg) no-repeat top;
+	  background-image:url(../images/maxresdefault.jpg);
+	  background-repeat: no-repeat;
+	  background-position: center;
+	  background-color: rgb(244, 113, 66);  
+}
+.heading{
+	color: red;
 
-
-  
+}
+.tex{
+	clear: both;
+	color: white;
 }

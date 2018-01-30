@@ -1,14 +1,20 @@
 body
 {
-	background-color: rgb(192, 232, 208);
+	background-color: white;
 	margin: 0;
+}
+#navv{
+text-transform: uppercase;
+margin-top: 10px;
+border: 7px solid blue;
+padding: 5px;
 }
 #mainHeading
 {
 	color: rgb(215,70,17);
 	font-family: 'Indie Flower', cursive;
-    text-shadow:0px 2px 0px black; 
-     font-size: 50px
+    text-shadow:0px 4px 0px black; 
+     font-size: 50px;
 }
 .li1{
 	display: inline;
@@ -22,12 +28,7 @@ body
 	text-decoration: underline;
 	color:gray;
 }
-#navv{
-	margin-top: 10px;
-text-transform: uppercase;
-position: relative;
-border: 7px solid blue;
-}
+
 #test{
 	position: relative;
 	margin-right: 0;
@@ -42,15 +43,17 @@ border: 7px solid blue;
 	border: 1px solid green;
 	padding:10px;
 	float: left;
-	margin-right: 50px;
-	position: absolute;
+	margin-right: 65px;
+	margin-bottom: 20px;
+	
 }
 img{
 	width:300px;
-	 height:400px;
+	height: 375px;
+
 	float: right;
-	padding-right: 0;
-	margin-left: 0;
+	margin-bottom: 20px;
+	
 }
 #full{
 	border: 1px solid gray;
@@ -69,6 +72,7 @@ img{
 	float: left;
 	width: 600px;
 	height: 200px;
+	margin-bottom: 20px;
 }
 #asi{
 	
@@ -78,4 +82,9 @@ img{
 #test li {
 	
 	list-style-type: none;
+}
+.tt{
+	position: relative;
+	clear:both;
+	border: 10px solid yellow;
 }
