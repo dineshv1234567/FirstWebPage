@@ -1,6 +1,6 @@
 body
 {
-	background-color: rgb(54,50,90);
+	background-color: rgb(192, 232, 208);
 	margin: 0;
 }
 #mainHeading
@@ -15,7 +15,7 @@ body
 	
 }
 #nav a{
-	color: yellow;
+	color: blue;
 	text-decoration: none;
 }
 #nav a:hover{
@@ -26,7 +26,7 @@ body
 	margin-top: 10px;
 text-transform: uppercase;
 position: relative;
-border: 7px solid yellow
+border: 7px solid blue;
 }
 #test{
 	position: relative;
@@ -35,9 +35,11 @@ border: 7px solid yellow
 	padding-right: 0;
 	padding-bottom: 0;
 	text-align: right;  
+	padding-bottom: 20px;
+	margin-bottom: 20px;
 }
 #info{
-	border: 1px solid white;
+	border: 1px solid green;
 	padding:10px;
 	float: left;
 	margin-right: 50px;
@@ -61,4 +63,19 @@ img{
 	margin-left: 0px;
 	text-align: left;
     background-color: gray;
+    margin-bottom: 10px;
+}
+#contact{
+	float: left;
+	width: 600px;
+	height: 200px;
+}
+#asi{
+	
+	float: right;
+	left: 30px;
+}
+#test li {
+	
+	list-style-type: none;
 }
